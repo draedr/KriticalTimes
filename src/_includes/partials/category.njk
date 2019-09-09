@@ -1,0 +1,13 @@
+<div class="block md:flex lg:flex">
+    <div class="w-full md:w-2/5 lg:w-2/5v -{{ siteData.color }}----0 md:-{{ siteData.color }}----r lg:-{{ siteData.color }}----r -{{ siteData.color }}------gray-400">
+        <div class="font-bold text-2xl text-center md:text-left lg:text-left p-6 pb-2"> Browse by Category </div>
+        <div class="text-center md:text-left lg:text-left">
+            <p class="text-sm px-6"> Browse all of our published material by category.</p>
+        </div>
+    </div>
+    <div class="w-full md:w-3/5 lg:w-3/5 p-12 pt-0">
+        {%- for item in siteData.categories -%}
+            <a href="/tags/{{item}}/" class="block mx-auto mt-6 w-1/2 float-none md:float-left lg:float-left text-center md:text-left lg:text-left font-bold text-xl text-{{ siteData.color }}-800 hover:text-{{ siteData.color }}-500"> {{item | capitalize}} </a>
+        {%- endfor -%}
+    </div>
+</div>

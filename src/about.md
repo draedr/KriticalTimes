@@ -1,0 +1,15 @@
+---
+layout: layouts/page.njk
+title: About us
+eleventyExcludeFromCollections: true
+---
+
+# About the Journal
+
+Critical Times: Interventions in Global Critical Theory is a peer-reviewed, open access online journal published by the International Consortium of Critical Theory Programs with the aim of foregrounding forms of critical theory articulated in the world’s different regions and through the encounters between them. The journal seeks to reflect on and facilitate forms of transnational solidarity that draw upon critical theory and political practice from various world regions. Calling into question hemispheric epistemologies in order to revitalize left critical thought for these times, the journal publishes essays, interviews, dialogues, dispatches, visual art, and various platforms for critical reflection, engaging with social and political theory, literature, philosophy, art criticism, and other fields within the humanities and social sciences.
+
+Critical Times stages encounters between critical theory and related traditions of critique. It hopes to redress missed opportunities for critical dialogue between the Global South and Global North and to generate contacts across the current divisions of knowledge and languages in the South and across the peripheries. This includes translated works from authors writing in languages other than English whose work may not circulate widely in the Western academy. We encourage various formats for articles and essays, from different regional and intellectual traditions.
+
+Critical Times seeks to publish texts that shed light on contemporary practices of authoritarian and neo-fascist politics, nativist and atavistic cultural formations, and forms of economic exclusion, as well as spaces and forms of life where emancipatory social worlds might be imagined and articulated. Hence, we aim to publish essays that analyze emerging forms of authoritarianism and fascism; occupation and dispossession; race and racism; war and apartheid; neoliberal legal and economic formations; sovereignty and post-national power; articulations of law and violence; technology; nature, climate change, and environmental justice; bio- and necropolitics; religion; the intellectual work of social movements; as well as socialism, ideals of transformation, equality, resistance, transnational solidarity, radical democracy, and revolution.
+
+ The International Consortium of Critical Theory Programs (ICCTP) is housed at the University of California, Berkeley and Northwestern University and is funded by the Andrew W. Mellon Foundation. The task of this international consortium is to document, connect, and support the various programs and projects that now represent critical theory across the globe. Through its work, the Consortium aims to document the global contours of critical theory today, supporting critical thought both inside and outside the university in the arts, humanities, social sciences, and science and technology studies, and seeking collaborative ways to become critically responsive to pressing global challenges.

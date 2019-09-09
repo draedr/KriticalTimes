@@ -1,0 +1,13 @@
+@import '_reset.scss';
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+$var: white;
+
+body {
+  background-color: $var;
+}

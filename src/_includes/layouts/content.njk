@@ -1,0 +1,32 @@
+{% extends 'layouts/base.njk' %}
+
+{% block content %}
+<div>
+    <div class="p-12 font-serif border-b border-gray-400">
+        <div class="mt-2 font-bold text-4xl"> {{ title }} </div>
+        <div class="text-xl"> {{ date | cuteDate }} </div>
+    </div>
+    <div class="md:flex lg:flex w-full border-b border-gray-400">
+        <div class="flex md:block lg:block md:w-2/5 lg:w-2/5 p-12 border-gray-400 font-serif border-r border-gray-400">
+            <div class="flex-grow"></div>
+            <div class="flex-initial mr-6 md:mr-0 lg:mr-0">
+                <div class="text-xl font-bold"> Author </div>
+                <div class="text-xl"> {{ author }} </div>
+            </div>
+            <div class="flex-initial ml-6 md:ml-0 lg:ml-0 md:mt-12 lg:mt-12">
+                <div class="text-xl font-bold"> Category </div>
+                <div class="text-xl"> 
+                    {%- for tag in tags -%}
+                    <a href="/tags/{{tag}}/"> {{ tag | capitalize }} </a> <br>
+                    {%- endfor -%}
+                </div>
+            </div>
+            <div class="flex-grow"></div>
+        </div>
+        <div class="p-12 pt-0 md:pt-12 lg:pt-12 font-serif md:w-3/5 lg:w-3/5">
+            {{ content | safe }}
+        </div>
+    </div>
+
+</div>
+{% endblock %}

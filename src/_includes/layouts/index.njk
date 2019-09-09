@@ -1,0 +1,49 @@
+{% extends 'layouts/base.njk'%}
+{% block content %}
+  {% set top = collections.all[0] %}
+  {% if siteData.enableFeaturedHeroArticle %}
+  <div class="block md:flex lg:flex w-full bg-{{ siteData.color }}-600 h-screen-1-3">
+    <div class="w-full md:w-2/5 lg::w-2/5 p-6">
+        <a href="siteData.featuredArticle.url" class="block text-3xl font-bold text-white">
+             {{ siteData.featuredArticle.title }} 
+        </a>
+        <div class="pt-8 inline-block text-lg font-bold text-white">
+            <a href="#" class="block text-xl border-b mb-4">  {{ siteData.featuredArticle.author }}  </a>
+            <span>  {{ siteData.featuredArticle.date }}  </span>
+        </div>
+    </div>
+    <img src=" {{ siteData.heroImage }} " class="w-full md:w-3/5 lg::w-3/5">
+  </div>
+  {% else %}
+  <div class="block w-full bg-{{ siteData.color }}-600 h-64">
+    <img src=" {{ siteData.heroImage }}" class="w-full h-64 object-cover">
+  </div>
+  {% endif %}
+
+  <div class="block md:flex lg:flex w-full border-b border-gray-400">
+      <div class="w-full md:w-2/5 lg::w-2/5 p-12 border-b md:border-r lg:border-r border-gray-400 font-serif">
+            <!-- <div class=""> Current Issue </div> -->
+
+        {% for post in collections.all | reverse %}
+          {% if loop.first %}
+            <a href="{{ post.url }}" class="block font-bold text-2xl"> {{ post.data.title }} </a>
+            <div class="mt-2 text-xl"> {{ post.data.author }} </div>
+            <div class="mt-4">
+              {{ post.templateContent | safe }}
+            </div>
+          {% endif%}
+        {% endfor %}
+      </div>
+      <div class="w-full md:w-3/5 lg::w-3/5 p-12 font-serif">
+        {% for post in collections.all | reverse %}
+          {% if loop.index != 1 %}
+            <a href="{{ post.url }}" class="block mb-12">
+              <div class=""> {{ loop.index }} - {{ post.data.tags[0] | capitalize }} </div>
+              <div class="font-bold text-xl"> {{ post.data.title }} </div>
+              <div class="text-xl"> {{ post.date | cuteDate}}, by {{ post.data.author}} </div>
+            </a>
+          {% endif %} 
+        {% endfor %}
+      </div>
+  </div>
+{% endblock %}
