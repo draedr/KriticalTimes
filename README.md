@@ -1,6 +1,9 @@
 # Kritical Times
 
-A port of the "Critical Times" theme from OJS to Eleventy, based on [deventy](https://github.com/ianrose/deventy) and built using [tailwindCSS](https://github.com/tailwindcss/tailwindcss).
+A port of the "Critical Times" theme from OJS to Eleventy, based on [deventy](https://github.com/ianrose/deventy) and built using [tailwindCSS](https://github.com/tailwindcss/tailwindcss). Demo available at (https://kriticaltimes.netlify.com/)[https://kriticaltimes.netlify.com/]
+
+## To-Do List
+- Add tailwindCSS to PostCSS build to maximaze customization options
 
 ## Getting Started
 
