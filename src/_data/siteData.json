@@ -9,14 +9,14 @@
     "essay",
     "poetry"
   ],
-  "enableFeaturedHeroArticle": false,
-  "completelyHideHero": true,
+  "enableFeaturedHeroArticle": true,
+  "completelyHideHero": false,
   "heroImage": "/images/homepageImage.jpg",
   "featuredArticle": {
-    "title": "An innovative experience",
-    "url": "",
-    "author": "Baru Ruru",
-    "date": ""
+    "title": "Kritical Times",
+    "url": "https://github.com/draedr/KriticalTimes",
+    "author": "A professional theme, with disqus support, scss, et cetera.",
+    "date": "Draedr"
   },
   "latestIssue": {
     "title": "An Issue",

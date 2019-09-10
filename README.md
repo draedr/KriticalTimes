@@ -4,6 +4,7 @@ A port of the "Critical Times" theme from OJS to Eleventy, based on [deventy](ht
 
 ## To-Do List
 - Add tailwindCSS to PostCSS build to maximaze customization options
+- Add Search System
 
 ## Getting Started
 
