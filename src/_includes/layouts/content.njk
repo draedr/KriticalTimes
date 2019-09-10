@@ -27,6 +27,8 @@
             {{ content | safe }}
         </div>
     </div>
-
+    {% if siteData.disqus.enabled %}
+        <script id="dsq-count-scr" src="//kriticaltimesdemo.disqus.com/count.js" async></script>
+    {% endif %}
 </div>
 {% endblock %}
