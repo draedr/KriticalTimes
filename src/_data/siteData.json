@@ -3,13 +3,14 @@
   "color": "teal",
   "logo": "/images/logo.png",
   "logo_alt": "/images/logo-white.png",
-  "description": "A peer-reviewed, open access online journal published by the International Consortium of Critical Theory Programs.",
+  "description": "A peer-reviewed, open access online journal published by the [International Consortium of Critical Theory Programs](https://google.com).",
   "categories": [
     "editorial",
     "essay",
     "poetry"
   ],
   "enableFeaturedHeroArticle": false,
+  "completelyHideHero": true,
   "heroImage": "/images/homepageImage.jpg",
   "featuredArticle": {
     "title": "An innovative experience",
@@ -21,5 +22,8 @@
     "title": "An Issue",
     "subtitle": "An issue that we encountered",
     "content": ""
+  },
+  "disqus": {
+    
   }
 }

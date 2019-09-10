@@ -9,5 +9,33 @@ input:focus {
 }
 
 h1 {
+  @extend .text-5xl, .font-bold, .pb-4
+}
+
+h2 {
   @extend .text-4xl, .font-bold, .pb-4
+}
+
+h3 {
+  @extend .text-3xl, .font-bold, .pb-4
+}
+
+h4 {
+  @extend .text-2xl, .font-bold, .pb-4
+}
+
+h5 {
+  @extend .text-xl, .font-bold, .pb-4
+}
+
+h6 {
+  @extend .text-lg, .font-bold, .pb-4
+}
+
+a {
+  @extend .font-bold, .italic
+}
+
+a:hover {
+  @extend .underline
 }
