@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 title: About us
 eleventyExcludeFromCollections: true
+enableDisqus: true
 ---
 
 # About the Journal

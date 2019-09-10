@@ -4,4 +4,10 @@
     <div id="page" class="p-12">
         {{ content | safe }}
     </div>
+    {% if enableDisqus %}
+        {% if siteData.disqus.enabled %}
+            {% include 'partials/disqus.njk' %}
+            <script id="dsq-count-scr" src="//kriticaltimesdemo.disqus.com/count.js" async></script>
+        {% endif %}
+    {% endif %}
 {% endblock %}
