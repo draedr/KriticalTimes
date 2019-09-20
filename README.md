@@ -2,6 +2,9 @@
 
 A port of the "Critical Times" theme from OJS to Eleventy, based on [deventy](https://github.com/ianrose/deventy) and built using [tailwindCSS](https://github.com/tailwindcss/tailwindcss).
 
+## Demo
+[https://kriticaltimes.netlify.com/](https://kriticaltimes.netlify.com/)
+
 ## Getting Started
 
 Install all dependencies using npm:
